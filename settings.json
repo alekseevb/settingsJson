@@ -8,11 +8,17 @@
 	"editor.fontSize": 17,
 	"editor.lineHeight": 1.7,
 	//scss
+	"liveSassCompile.settings.generateMap": false,
 	"liveSassCompile.settings.showOutputWindowOn": "None",
 	"liveSassCompile.settings.formats": [
 		{
 			"format": "expanded",
 			"extensionName": ".css",
+			"savePath": "~/../css/"
+		},
+		{
+			"extensionName": ".min.css",
+			"format": "compressed",
 			"savePath": "~/../css/"
 		}
 	],
@@ -63,7 +69,6 @@
 	// Отключаем Мини Карту кода
 	"editor.minimap.renderCharacters": false,
 	"editor.minimap.enabled": false,
-	"editor.wordWrap": "on",
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
@@ -80,5 +85,10 @@
 	"editor.padding.top": 15,
 	"vscodeGoogleTranslate.preferredLanguage": "English",
 	"chat.commandCenter.enabled": false,
-	"cSpell.userWords": ["скролл", "скроллбара"] // отступ сверху кода
+	"cSpell.userWords": ["скролл", "скроллбара"],
+	"emmet.extensionsPath": [
+		"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\snippets"
+	],
+	"editor.wordWrapColumn": 150,
+	"emmet.optimizeStylesheetParsing": false // отступ сверху кода
 }
