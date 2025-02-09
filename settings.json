@@ -14,12 +14,12 @@
 		{
 			"format": "expanded",
 			"extensionName": ".css",
-			"savePath": "~/../css/"
+			"savePath": "styles/css/"
 		},
 		{
 			"extensionName": ".min.css",
 			"format": "compressed",
-			"savePath": "~/../css/"
+			"savePath": "styles/css/"
 		}
 	],
 	"breadcrumbs.enabled": false,
@@ -90,5 +90,6 @@
 		"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\snippets"
 	],
 	"editor.wordWrapColumn": 150,
-	"emmet.optimizeStylesheetParsing": false // отступ сверху кода
+	"emmet.optimizeStylesheetParsing": false,
+	"editor.accessibilitySupport": "off" // отступ сверху кода
 }
