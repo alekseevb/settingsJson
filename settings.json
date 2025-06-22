@@ -2,10 +2,10 @@
 	"files.autoSave": "onFocusChange",
 	"json.schemas": [],
 	//font
-	"editor.fontLigatures": true,
+	"editor.fontLigatures": false,
 	"editor.fontFamily": "JetBrains Mono",
 	"chat.editor.fontWeight": "default",
-	"editor.fontSize": 17,
+	"editor.fontSize": 16,
 	"editor.lineHeight": 1.7,
 	//scss
 	"liveSassCompile.settings.generateMap": false,
@@ -25,7 +25,7 @@
 	"breadcrumbs.enabled": false,
 	"editor.stickyScroll.maxLineCount": 1,
 	"terminal.integrated.fontFamily": "JetBrains Mono",
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
 	//Для корректной работы "Code Spell Checker" + "Russian - Code Spell Checker"
 	"cSpell.language": "en,ru",
 	//Для корректной работы "Prettier"
@@ -78,18 +78,33 @@
 	"editor.smoothScrolling": true, // плавный скролл
 	"workbench.list.smoothScrolling": true, // плавный скролл
 	"terminal.integrated.smoothScrolling": true, // плавный скролл в терминале
-	// "editor.cursorBlinking": "expand", // мигающей курсор
-	// "terminal.integrated.cursorBlinking": true, // мигающей курсор
+	"editor.cursorBlinking": "expand", // мигающей курсор
+	"terminal.integrated.cursorBlinking": true, // мигающей курсор
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#ffffff",
+		"terminalCursor.foreground": "#ffffff"
+	},
 	"editor.glyphMargin": false,
 	"editor.linkedEditing": true,
 	"editor.padding.top": 15,
 	"vscodeGoogleTranslate.preferredLanguage": "English",
-	"chat.commandCenter.enabled": false,
-	"cSpell.userWords": ["скролл", "скроллбара"],
-	"emmet.extensionsPath": [
-		"C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\snippets"
-	],
-	"editor.wordWrapColumn": 150,
+	"cSpell.userWords": ["скролл", "скроллбара", "imask"],
+	"editor.wordWrapColumn": 200,
 	"emmet.optimizeStylesheetParsing": false,
-	"editor.accessibilitySupport": "off" // отступ сверху кода
+	"editor.accessibilitySupport": "off",
+	"indentRainbow.indicatorStyle": "light",
+	"indentRainbow.lightIndicatorStyleLineWidth": 2,
+	"indentRainbow.tabmixColor": "rgba(128,32,96,0.8)",
+	"workbench.editorAssociations": {
+		"*.svg": "default"
+	},
+	"bookmarks.saveBookmarksInProject": true,
+	"chat.commandCenter.enabled": false,
+	"Key Promoter.ignoredCommands": ["type", "workbench.action.Editor"],
+	"prettier.printWidth": 200,
+	"prettier.bracketSameLine": true,
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.externalBrowser": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Firefox Developer Edition.lnk",
+	"emmet.extensionsPath": ["C:\\Users\\alexs\\AppData\\Roaming\\Code\\User\\snippets"]
+	// "liveServer.settings.CustomBrowser": "firefox" // отступ сверху кода
 }
